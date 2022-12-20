@@ -3,7 +3,6 @@ const imagensPainel = document.querySelectorAll('.imagem-painel');
 const setaAvancar = document.getElementById('btn-avancar');
 const setaVoltar = document.getElementById('btn-voltar');
 
-//Para não escrever código repetido. vamos criar 
 function escoderImagens(){
     imagensPainel.forEach(imagem => {
         imagem.classList.remove('mostrar')  
